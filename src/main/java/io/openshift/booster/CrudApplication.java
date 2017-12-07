@@ -188,23 +188,7 @@ public class CrudApplication extends AbstractVerticle {
       );
   }
 
- /* private void deleteOne(RoutingContext ctx) {
-	    store.delete(ctx.get("fruitId"))
-	      .subscribe(
-	        () ->
-	          ctx.response()
-	            .setStatusCode(204)
-	            .end(),
-	        err -> {
-	          if (err instanceof NoSuchElementException) {
-	            error(ctx, 404, err);
-	          } else {
-	            error(ctx, 415, err);
-	          }
-	        }
-	      );
-	  }
-  */
+ 
   
   
   
